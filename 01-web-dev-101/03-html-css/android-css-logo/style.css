@@ -13,23 +13,39 @@ margin:100px auto;}
 	-webkit-transition: all 0.1s ease-in;
 }
 
-.l_ant
+.l_eye, .r_eye {
+}
+.l_eye {}
+.r_eye {}
 
-.r_ant
+.l_ant, .r_ant{
 
-.l_eye
+}
+.l_ant {
+}
+.r_ant {
+}
 
-.r_eye
+.body{
+}
 
-.body
+.l_arm, .r_arm, .l_leg, .r_leg {
+}
+.l_arm, .r_arm {
+}
+.l_leg, .r_leg {
+}
+.l_arm {}
+.r_arm {}
+.l_leg {}
+.r_leg {}
 
-.l_arm
-
-.r_arm
-
-.l_leg
-
-.r_leg
+.head:hover {
+}
+.l_arm:hover{
+}
+.r_arm:hover{
+}
 
 
 
