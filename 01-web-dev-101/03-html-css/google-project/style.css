@@ -16,6 +16,13 @@ ul .upper{
 ul .lower{
 	bottom: 0;
 	left:0;
+	background: #f2f2f2;
+}
+.left{
+	float:left;
+}
+.right{
+	float: right;
 }
 
 p{}
