@@ -1,11 +1,13 @@
 body{}
-ul{}
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+li{display: inline;}
 #upper-left{}
-li{}
 #upper-right{}
-ul{}
 #upper-right{}
-li{}
 img{
 	height:92px;
 	background-image:url("googlelogo_color_272x92dp.png";)
@@ -25,12 +27,6 @@ p{}
 a{text-decoration: none;color: rgba(0,0,0,0.87)}
 a #language{color: #1a0dab;}
 input[text]{}
-ul{
-	list-style-type: none;
-	margin:0;
-	padding:0;
-}
-li{display: inline;}
 #lower-left{
 	bottom: 0;
 	left: 0;
