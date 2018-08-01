@@ -5,9 +5,21 @@ ul{
 	padding:0;
 }
 li{display: inline;}
-#upper-left{}
-#upper-right{}
-#upper-right{}
+ul #upper-left{}
+ul #upper-right{}
+ul #upper-right{}
+ul #lower-left{
+	bottom: 0;
+	left: 0;
+}
+ul #lower-right{
+	bottom: 0;
+	right: 0;
+}
+
+p{}
+a{text-decoration: none;color: rgba(0,0,0,0.87)}
+a #language{color: #1a0dab;}
 img{
 	height:92px;
 	background-image:url("googlelogo_color_272x92dp.png";)
@@ -23,15 +35,4 @@ button:hover{
 	color: #000;
     border: #333
 }
-p{}
-a{text-decoration: none;color: rgba(0,0,0,0.87)}
-a #language{color: #1a0dab;}
 input[text]{}
-#lower-left{
-	bottom: 0;
-	left: 0;
-}
-#lower-right{
-	bottom: 0;
-	right: 0;
-}
