@@ -1,16 +1,38 @@
-body{
-	margin:0 auto;
-	text-align: center;
-}
-ul{
+body{}
+ul{}
+#upper-left{}
+li{}
+#upper-right{}
+ul{}
+#upper-right{}
+li{}
+img{height: 92px; background-image:url("googlelogo_color_272x92dp.png";)}
 
-}
-li{
-
-}
-img{
-
-}
+img #hplogo{}
 button{
-
+	color: #333;
+	background: #ccc;
+	height: 36px;
+    line-height: 27px;
+}
+button:hover{
+	color: #000;
+    border: #333
+}
+p{}
+a{}
+input[text]{}
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+li{display: inline;}
+#lower-left{
+	bottom: 0;
+	left: 0;
+}
+#lower-right{
+	bottom: 0;
+	right: 0;
 }
