@@ -9,23 +9,11 @@ ul{
 	padding:0;
 }
 li{display: inline;}
-ul #upper-left{
+ul .upper{
 	top:0;
 	left:0;
 }
-ul #upper-right{
-	top:0;
-	right:0;
-}
-ul #upper-right{
-	bottom:0;
-	right:0;
-}
-ul #lower-left{
-	bottom:0;
-	left:0;
-}
-ul #lower-right{
+ul .lower{
 	bottom: 0;
 	left:0;
 }
