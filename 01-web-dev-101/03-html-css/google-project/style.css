@@ -6,8 +6,10 @@ li{}
 ul{}
 #upper-right{}
 li{}
-img{height: 92px; background-image:url("googlelogo_color_272x92dp.png";)}
-
+img{
+	height:92px;
+	background-image:url("googlelogo_color_272x92dp.png";)
+}
 img #hplogo{}
 button{
 	color: #333;
@@ -20,7 +22,8 @@ button:hover{
     border: #333
 }
 p{}
-a{}
+a{text-decoration: none;color: rgba(0,0,0,0.87)}
+a #language{color: #1a0dab;}
 input[text]{}
 ul{
 	list-style-type: none;
