@@ -1,20 +1,32 @@
-body{}
+body{
+	text-align: center;
+	
+}
 ul{
 	list-style-type: none;
 	margin:0;
 	padding:0;
 }
 li{display: inline;}
-ul #upper-left{}
-ul #upper-right{}
-ul #upper-right{}
+ul #upper-left{
+	top:0;
+	left:0;
+}
+ul #upper-right{
+	top:0;
+	right:0;
+}
+ul #upper-right{
+	bottom:0;
+	right:0;
+}
 ul #lower-left{
-	bottom: 0;
-	left: 0;
+	bottom:0;
+	left:0;
 }
 ul #lower-right{
 	bottom: 0;
-	right: 0;
+	left:0;
 }
 
 p{}
