@@ -1,6 +1,7 @@
 body{
 	text-align: center;
-	
+	font-size: small;
+	color:#222;
 }
 ul{
 	list-style-type: none;
