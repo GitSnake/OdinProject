@@ -7,7 +7,9 @@ img{
     display: block;
     margin: 0 auto;
 }
-
+a{
+	text-decoration: none;
+}
 ul{
 	list-style-type: none;
 	margin:0;
@@ -25,9 +27,6 @@ li {
 	display: inline;
 }
 */
-a {
-	text-decoration: none;
-}
 /*
 ul .upper{
 	top:0;
