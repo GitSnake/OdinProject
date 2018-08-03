@@ -8,6 +8,15 @@ ul{
 	margin:0;
 	padding:0;
 }
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
 li{display: inline;}
 ul .upper{
 	top:0;
@@ -23,7 +32,13 @@ ul .lower{
 .right{
 	float: right;
 }
-
+.container{
+	margin:0 auto;
+	text-align: center;
+	/*height: 100px;*/
+	width: 50%;
+	border: 1px solid #000;
+}
 p{}
 a{text-decoration: none;color: rgba(0,0,0,0.87)}
 a #language{color: #1a0dab;}
