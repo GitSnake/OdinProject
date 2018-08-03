@@ -10,6 +10,8 @@ ul{
 }
 li {
     float: left;
+    padding: 1em;
+	display: inline;
 }
 
 a {
@@ -17,13 +19,12 @@ a {
     padding: 8px;
     background-color: #dddddd;
 }
-li{display: inline;}
 ul .upper{
 	top:0;
 	left:0;
 }
 ul .lower{
-	bottom: 0;
+	bottom: 100%;
 	background: #f2f2f2;
 }
 .left{
@@ -35,7 +36,7 @@ ul .lower{
 .container{
 	margin:0 auto;
 	text-align: center;
-	/*height: 100px;*/
+	height: 100%;
 	width: 50%;
 	border: 1px solid #000;
 }
@@ -44,7 +45,8 @@ a{text-decoration: none;color: rgba(0,0,0,0.87)}
 a #language{color: #1a0dab;}
 img{
 	height:92px;
-	background-image:url("googlelogo_color_272x92dp.png";)
+	background-image:url("googlelogo_color_272x92dp.png");
+	display:block;
 }
 img #hplogo{}
 button{
@@ -52,6 +54,9 @@ button{
 	background: #ccc;
 	height: 36px;
     line-height: 27px;
+}
+.center button{
+	margin:0 auto;
 }
 button:hover{
 	color: #000;
@@ -62,4 +67,5 @@ input[text]{
 	height: 100%;
 	overflow: hidden;
 	padding: 6px 9px 0;
+	display: block;
 }
