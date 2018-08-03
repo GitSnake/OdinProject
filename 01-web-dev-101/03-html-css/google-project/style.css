@@ -15,13 +15,15 @@ ul{
 	margin:0;
 	padding:0;
 }
-/*
+
 li {
-    float: left;
+/*    float: left;
     padding: 1em;
+    */
 	display: inline;
 }
-li {
+/*
+span li {
     float: left;
     padding: 1em;
 	display: inline;
