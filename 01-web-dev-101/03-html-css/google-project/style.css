@@ -1,82 +1,17 @@
-body{
-	text-align: center;
-	font-size: small;
-	color:#222;
-}
-img{
-    display: block;
-    margin: 0 auto;
-}
-a{
-	text-decoration: none;
-}
-ul{
-	list-style-type: none;
-	margin:0;
-	padding:0;
-}
-
-li {
-/*    float: left;
-    padding: 1em;
-    */
-	display: inline;
-}
-/*
-span li {
-    float: left;
-    padding: 1em;
-	display: inline;
-}
-*/
-/*
-ul .upper{
-	top:0;
-	left:0;
-}
-ul .lower{
-	position: absolute;
-	bottom:0;
-	background: #f2f2f2;
-}
-.left{
-	float:left;
-}
-.right{
-	float: right;
-}
 .container{
-	margin:0 auto;
+	margin: 0 auto;
+    padding: 150px;
 	text-align: center;
-	height: 100%;
-	width: 50%;
-	border: 1px solid #000;
+	border: 1px solid red;
+	width:33%;
 }
-p{}
-a{text-decoration: none;color: rgba(0,0,0,0.87)}
 img{
-	height:92px;
-	background-image:url("googlelogo_color_272x92dp.png");
-	display:block;
+	margin: auto;
+    padding: 10px;
+    display: block;
 }
-img #hplogo{}
-button{
-	color: #333;
-	background: #ccc;
-	height: 36px;
-    line-height: 27px;
-}
-.center button{
-	margin:0 auto;
-}
-button:hover{
-	color: #000;
-    border: #333
-}
-input[text]{
-	box-sizing: border-box;
-	height: 100%;
-	overflow: hidden;
-	padding: 6px 9px 0;
-	display: block;
-}
+button[submit]{}
+p{font:;}
+a{text-decoration: none;}
+ul{}
+li{display: inline;}
