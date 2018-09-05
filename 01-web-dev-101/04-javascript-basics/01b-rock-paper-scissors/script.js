@@ -21,21 +21,22 @@ switch(x) {
 // funtion has two parameter (playerSelection, computerSelection)
 const RockGame = (playerSelection, computerSelection) => { return x * y };
 
-switch(x) {
-  case 'value1':  // if (x === 'value1')
-    ...
+switch(expression) {
+  case 0:  // if (x === 0) tie
+    "You Lose! Paper beats Rock!"
     [break]
-
-  case 'value2':  // if (x === 'value2')
-    ...
+  case 1:  // if (x === 1) rock
+    "You Lose! Paper beats Rock!"
     [break]
-
-  default:
-    ...
+  case 2:  // if (x === 2) paper
+    "You Lose! Paper beats Rock!"
+    [break]
+  case 3:  // if (x === 3) scissors
+    "You Lose! Paper beats Rock!"
     [break]
 }
 
-// RockGame function returns a string that declares the winner of the round like so: "You Lose! Paper beats Rock"
+// RockGame function returns a string that declares the winner of the round like so: "You Lose! Paper beats Rock!"
 
 // Make your function case insensitive (so users can input rock, ROCK, RocK or any other variation)
 // **Important note** : you want to return the results of this function call, not console.log() them. To test this function console.log the results:
@@ -57,7 +58,7 @@ const game = (playerSelection, computerSelection) => { return x * y };
 
 
 
-for loop
+// for loop
 for (let i = Things.length - 1; i < 6; i++) {
 	Things[i]
 }
