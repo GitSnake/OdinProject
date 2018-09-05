@@ -51,6 +51,9 @@ header > h1 {
 	padding: 10px;
 	display: inline-block;
 }
+.choice:hover{
+	cursor: pointer;
+}
 
 /* ids */
 #user-label{
