@@ -19,6 +19,7 @@ header > h1 {
 	font: Asap, sans-serif;
 }
 
+/* classes */
 .score-board{
 	margin: 20px auto;
 	text-align: center;
@@ -29,3 +30,13 @@ header > h1 {
 	font-size: 46px;
 	padding: 15px 20px;
 }
+.badge{
+	background: #E2584D;
+}
+
+
+
+
+
+
+
