@@ -16,8 +16,16 @@ function getComputerChoice(){
 
 function game(userChoice){
 	const computerChoice = getComputerChoice();
-	console.log(computerChoice);
+	switch (userChoice + computerChoice) {
+		case "rp":
+		case "pr":
+		case "sp":
+			console.log("USER WINS.")
+	}
 }
+
+
+
 
 function main(){
 	rock_div.addEventListener('click', function() {
