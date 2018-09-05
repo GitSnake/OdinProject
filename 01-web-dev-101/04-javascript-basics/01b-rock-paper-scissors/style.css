@@ -17,3 +17,9 @@ header > h1 {
 	text-align: center;
 	font: Asap, sans-serif;
 }
+
+.score-board{
+	margin: 20px auto;
+	border: 3px solid #FFF;
+	width: 200px;
+}
