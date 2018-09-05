@@ -38,7 +38,9 @@ header > h1 {
 
 /* ids */
 #user-label{
-
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 #comp-label{
 	
