@@ -69,6 +69,7 @@ header > h1 {
 	right: -30px;
 }
 #action-message{
+	margin-top: 20px;
 	font-size: 20px;
 	font-weight: bold;
 }
