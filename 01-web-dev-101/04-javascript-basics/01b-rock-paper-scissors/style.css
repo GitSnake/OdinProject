@@ -53,6 +53,7 @@ header > h1 {
 }
 .choice:hover{
 	cursor: pointer;
+	background: #24272E;
 }
 
 /* ids */
