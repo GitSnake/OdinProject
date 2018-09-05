@@ -52,15 +52,13 @@ console.log(playRound(playerSelection, computerSelection))
 Write a NEW function called game(). 
 const game = (playerSelection, computerSelection) => { return x * y };
 
-Use the previous function inside of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
-    1. At this point you should still just be using console.log() to display the results of each round and the winner at the end.
-    2. Use prompt() to get input from the user. Read the docs here if you need to.
-    3. Feel free to create more “helper” functions if you think it would be useful.
+(for loop) Use the previous function inside of this one to play a 5 round game that keeps score and reports a winner or loser at the end.
+    - Use prompt() to get input from the user. Read the docs here if you need to.
 
 
 
 for loop
-for (var i = Things.length - 1; i >= 0; i--) {
+for (let i = Things.length - 1; i < 6; i++) {
 	Things[i]
 }
 
