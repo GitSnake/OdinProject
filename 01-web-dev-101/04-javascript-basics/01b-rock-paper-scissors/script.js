@@ -9,6 +9,7 @@ const paper_div = document.getElementById("p");
 const scissors_div = document.getElementById("s");
 
 function getComputerChoice(){
+	const choices = ['r', 'p', 's'];
 	
 }
 
