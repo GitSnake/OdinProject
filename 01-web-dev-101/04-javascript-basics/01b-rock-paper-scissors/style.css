@@ -9,6 +9,7 @@ body{
 	background: #24272E;
 	color: #FFF;
 	font: Asap, sans-serif;
+	text-align: center;
 }
 header{
 	background: #FFF;
@@ -16,14 +17,12 @@ header{
 }
 header > h1 {
 	color: #25272E;
-	text-align: center;
 }
 
 /* classes */
 .score-board{
 	position: relative;
 	margin: 20px auto;
-	text-align: center;
 	border: 3px solid #FFF;
 	border-radius: 4px;
 	width: 200px;
@@ -41,6 +40,9 @@ header > h1 {
 .result > p{
 	text-align: center;
 	font-weight: bold;
+}
+.choice{
+	display: inline-block;
 }
 
 /* ids */
