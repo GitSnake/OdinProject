@@ -8,6 +8,10 @@ const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissors_div = document.getElementById("s");
 
+function game(userChoice){
+	console.log("test");
+}
+
 function main(){
 	rock_div.addEventListener('click', function() {
 		game("r");
@@ -21,6 +25,8 @@ function main(){
 		game("s");
 	})
 }
+
+main();
 
 
 
