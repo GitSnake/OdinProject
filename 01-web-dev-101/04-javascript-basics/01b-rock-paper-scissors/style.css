@@ -8,6 +8,7 @@
 body{
 	background: #24272E;
 	color: #FFF;
+	font: Asap, sans-serif;
 }
 header{
 	background: #FFF;
@@ -16,7 +17,6 @@ header{
 header > h1 {
 	color: #25272E;
 	text-align: center;
-	font: Asap, sans-serif;
 }
 
 /* classes */
@@ -26,12 +26,13 @@ header > h1 {
 	border: 3px solid #FFF;
 	border-radius: 4px;
 	width: 200px;
-	font-family: Asap, sans-serif;
 	font-size: 46px;
 	padding: 15px 20px;
 }
 .badge{
 	background: #E2584D;
+	font:14px;
+	padding: 2px 10px;
 }
 
 
