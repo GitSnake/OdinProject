@@ -1,3 +1,9 @@
+
+// userChoice is declared
+const userChoice = prompt ("Do you choose rock, paper or scissors?");
+
+
+
 // create function computerPlay (randomly return ‘Rock’, ‘Paper’ or ‘Scissors’)
 const multiplyES6 = (x, y) => { return x * y };
 
