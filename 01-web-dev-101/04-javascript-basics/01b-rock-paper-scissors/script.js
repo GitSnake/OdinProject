@@ -22,11 +22,12 @@ function game(userChoice){
 		case "sp":
 			console.log("USER WINS.")
 			break;
+		case "rp";
+		case "ps";
+		case "sr";
+			console.log("USER LOSES.");
 	}
 }
-
-
-
 
 function main(){
 	rock_div.addEventListener('click', function() {
