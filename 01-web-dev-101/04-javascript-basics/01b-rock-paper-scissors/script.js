@@ -21,6 +21,7 @@ function convertToWord(letter) {
 }
 
 function win(userChoice, computerChoice) {
+	userScore++;
 	userScore_span.innerHTML = userScore;
 	computerScore_span.innerHTML = computerScore;
 	const smallUserWord = "user".fontsize(3).sub();
