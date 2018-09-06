@@ -20,17 +20,17 @@ function game(userChoice){
 		case "rs":
 		case "pr":
 		case "sp":
-			console.log("USER WINS.")
+			win();
 			break;
 		case "rp";
 		case "ps";
 		case "sr";
-			console.log("USER LOSES.");
+			lose();
 			break;
 		case "rr";
 		case "pp";
 		case "ss";
-			console.log("YOU ARE TIED.");
+			draw();
 			break;
 	}
 }
