@@ -21,6 +21,7 @@ function game(userChoice){
 		case "pr":
 		case "sp":
 			console.log("USER WINS.")
+			break;
 	}
 }
 
