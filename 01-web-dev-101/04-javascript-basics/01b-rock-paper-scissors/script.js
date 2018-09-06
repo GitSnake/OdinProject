@@ -14,6 +14,12 @@ function getComputerChoice(){
 	return choices[randomNumber];
 }
 
+function convertToWord(letter) {
+	if (letter === "r") return "Rock";
+	if (letter === "r") return "Paper";
+	return "Scissors";
+}
+
 function win(userChoice, computerChoice) {
 	userScore++;
 	userScore_span.innerHTML = userScore;
