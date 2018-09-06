@@ -26,6 +26,7 @@ function game(userChoice){
 		case "ps";
 		case "sr";
 			console.log("USER LOSES.");
+			break;
 	}
 }
 
