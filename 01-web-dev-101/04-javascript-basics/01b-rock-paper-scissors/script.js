@@ -14,6 +14,18 @@ function getComputerChoice(){
 	return choices[randomNumber];
 }
 
+function win() {
+	console.log("Win");
+}
+
+function lose() {
+	console.log("Lose");
+}
+
+function draw() {
+	console.log("Draw");
+}
+
 function game(userChoice){
 	const computerChoice = getComputerChoice();
 	switch (userChoice + computerChoice) {
