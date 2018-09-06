@@ -30,6 +30,7 @@ function win(userChoice, computerChoice) {
 }
 
 function lose(userChoice, computerChoice) {
+	computerScore++;
 	userScore_span.innerHTML = userScore;
 	computerScore_span.innerHTML = computerScore;
 	const smallUserWord = "user".fontsize(3).sub();
