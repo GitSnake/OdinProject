@@ -27,6 +27,11 @@ function game(userChoice){
 		case "sr";
 			console.log("USER LOSES.");
 			break;
+		case "rr";
+		case "pp";
+		case "ss";
+			console.log("YOU ARE TIED.");
+			break;
 	}
 }
 
