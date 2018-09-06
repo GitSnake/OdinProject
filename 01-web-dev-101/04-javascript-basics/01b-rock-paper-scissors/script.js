@@ -14,8 +14,10 @@ function getComputerChoice(){
 	return choices[randomNumber];
 }
 
-function win() {
+function win(userChoice, computerChoice) {
 	userScore++;
+	userScore_span.innerHTML = userScore;
+	computerScore_span.innerHTML = computerScore;
 }
 
 function lose() {
