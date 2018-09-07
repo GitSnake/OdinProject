@@ -41,7 +41,7 @@ function lose(userChoice, computerChoice) {
 	const userChoice_div = document.getElementById(userChoice);
 	result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallCompWord}. You lost...`;
 	document.getElementById(userChoice).classList.add('red-glow');
-	setTimeout(function(){document.getElementById(userChoice).classList.remove('red-glow')}, 300);
+	setTimeout(() => userChoice_div.classList.remove('red-glow'), 300);
 }
 
 function draw(userChoice, computerChoice) {
@@ -50,7 +50,7 @@ function draw(userChoice, computerChoice) {
 	const userChoice_div = document.getElementById(userChoice);
 	result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} equals ${convertToWord(computerChoice)}${smallCompWord}. It's a draw.`;
 	document.getElementById(userChoice).classList.add('gray-glow');
-	setTimeout(function(){document.getElementById(userChoice).classList.remove('gray-glow')}, 300);
+	setTimeout(() => userChoice_div.classList.remove('gray-glow'), 300);
 }
 
 function game(userChoice){
