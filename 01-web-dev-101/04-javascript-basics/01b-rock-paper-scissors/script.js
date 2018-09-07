@@ -38,6 +38,8 @@ function lose(userChoice, computerChoice) {
 	const smallUserWord = "user".fontsize(3).sub();
 	const smallCompWord = "comp".fontsize(3).sub();
 	result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallCompWord}. You lost...`;
+	document.getElementById(userChoice).classList.add('red-glow');
+	setTimeout(function(){document.getElementById(userChoice).classList.remove('red-glow')}, 300);
 }
 
 function draw(userChoice, computerChoice) {
