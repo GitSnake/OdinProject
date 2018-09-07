@@ -29,7 +29,7 @@ function win(userChoice, computerChoice) {
 	const userChoice_div = document.getElementById(userChoice);
 	result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallCompWord}. You win!`;
 	document.getElementById(userChoice).classList.add('green-glow');
-	setTimeout(function(){document.getElementById(userChoice).classList.remove('green-glow')}, 300);
+	setTimeout(() => userChoice_div.classList.remove('green-glow'), 300);
 }
 
 function lose(userChoice, computerChoice) {
