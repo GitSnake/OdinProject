@@ -1,0 +1,17 @@
+.container{
+	margin: 0 auto;
+    padding: 150px;
+	text-align: center;
+	border: 1px solid red;
+	width:33%;
+}
+img{
+	margin: auto;
+    padding: 10px;
+    display: block;
+}
+button[submit]{}
+p{font:;}
+a{text-decoration: none;}
+ul{}
+li{display: inline;}
